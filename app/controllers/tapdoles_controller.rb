@@ -1,0 +1,2 @@
+class TapdolesController < ApplicationController
+end
