@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  resources :tapdoles
   resources :frogs
   # root
   root to: 'static_pages#home'
