@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :ponds
   resources :frogs
   # root
   root to: 'static_pages#home'
