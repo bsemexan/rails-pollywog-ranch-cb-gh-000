@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(version: 20180410153627) do
   end
 
   create_table "ponds", force: :cascade do |t|
+    t.string   "name"
+    t.string   "water_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
